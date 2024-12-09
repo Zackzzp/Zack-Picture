@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.zack.zackpicture.demos.web;
+package com.zack.zackpicture.controller;
 
 /**
  * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>

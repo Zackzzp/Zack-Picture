@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.zack.zackpicture.demos.web;
+package com.zack.zackpicture.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;

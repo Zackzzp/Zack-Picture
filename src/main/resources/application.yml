@@ -8,7 +8,7 @@ spring:
   # 数据库配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/zack_picture_store
+    url: jdbc:mysql://localhost:3308/zack_picture_store
     username: root
     password: root
 mybatis-plus:
@@ -20,3 +20,15 @@ mybatis-plus:
       logic-delete-field: isDeleted
       logic-delete-value: 1 #逻辑已删除
       logic-not-delete-value: 0 #逻辑未删除
+#接口文档配置
+knife4j:
+  enable: true
+  openapi:
+    title: 接口文档
+    version: 1.0
+    group:
+      default:
+        group-name: 分组名称
+        api-rule: package
+        api-rule-resources:
+          - com.zack.zackpicture.controller
